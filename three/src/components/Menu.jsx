@@ -1,6 +1,6 @@
 import React from 'react';
 import { useCart } from '../context/CartContext';
-import ModelViewer from './ModelViewer';
+import SlideCard from './SlideCard';
 
 function Menu() {
   const { addToCart } = useCart();
@@ -154,54 +154,11 @@ function Menu() {
         <h3>Coffee & Espresso</h3>
         <div className="menu-card-grid">
           {coffeeProducts.map(product => (
-            <div className="flip-card" key={product.id}>
-              <div className="flip-card-inner">
-                <div className="flip-card-front">
-                  <div className="menu-card">
-                    <div className="menu-card-image">
-                      <ModelViewer 
-                        modelType={product.model.type}
-                        modelPath={product.model.path}
-                        materialPath={product.model.materialPath}
-                        scale={product.model.scale}
-                        position={product.model.position}
-                        rotation={product.model.rotation}
-                      />
-                    </div>
-                    <div className="menu-card-content">
-                      <div className="menu-card-header">
-                        <h4>{product.name}</h4>
-                        <span className="price">{product.price}</span>
-                      </div>
-                      <p>{product.description}</p>
-                      <div className="hover-prompt">
-                        <span>Hover for details</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="flip-card-back">
-                  <div className="menu-card">
-                    <div className="back-content">
-                      <h4>{product.name}</h4>
-                      <div className="details-section">
-                        <p className="details-text">{product.details}</p>
-                        <div className="product-info">
-                          <p><strong>Ingredients:</strong> {product.ingredients}</p>
-                          <p><strong>Calories:</strong> {product.calories}</p>
-                        </div>
-                      </div>
-                      <button 
-                        className="add-to-cart-btn"
-                        onClick={() => handleAddToCart(product)}
-                      >
-                        Add to Cart
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <SlideCard 
+              key={product.id} 
+              product={product} 
+              onAddToCart={handleAddToCart} 
+            />
           ))}
         </div>
       </div>
@@ -210,54 +167,11 @@ function Menu() {
         <h3>Pastries & Snacks</h3>
         <div className="menu-card-grid">
           {pastryProducts.map(product => (
-            <div className="flip-card" key={product.id}>
-              <div className="flip-card-inner">
-                <div className="flip-card-front">
-                  <div className="menu-card">
-                    <div className="menu-card-image">
-                      <ModelViewer 
-                        modelType={product.model.type}
-                        modelPath={product.model.path}
-                        materialPath={product.model.materialPath}
-                        scale={product.model.scale}
-                        position={product.model.position}
-                        rotation={product.model.rotation}
-                      />
-                    </div>
-                    <div className="menu-card-content">
-                      <div className="menu-card-header">
-                        <h4>{product.name}</h4>
-                        <span className="price">{product.price}</span>
-                      </div>
-                      <p>{product.description}</p>
-                      <div className="hover-prompt">
-                        <span>Hover for details</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="flip-card-back">
-                  <div className="menu-card">
-                    <div className="back-content">
-                      <h4>{product.name}</h4>
-                      <div className="details-section">
-                        <p className="details-text">{product.details}</p>
-                        <div className="product-info">
-                          <p><strong>Ingredients:</strong> {product.ingredients}</p>
-                          <p><strong>Calories:</strong> {product.calories}</p>
-                        </div>
-                      </div>
-                      <button 
-                        className="add-to-cart-btn"
-                        onClick={() => handleAddToCart(product)}
-                      >
-                        Add to Cart
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <SlideCard 
+              key={product.id} 
+              product={product} 
+              onAddToCart={handleAddToCart} 
+            />
           ))}
         </div>
       </div>

@@ -19,6 +19,21 @@ export const CartProvider = ({ children }) => {
     setSubtotal(newSubtotal);
   }, [cartItems]);
   
+  // Handle body scroll lock when cart is open
+  useEffect(() => {
+    if (cartOpen) {
+      // Prevent background scrolling when cart is open
+      document.body.style.overflow = 'hidden';
+    } else {
+      // Allow scrolling when cart is closed
+      document.body.style.overflow = 'auto';
+    }
+
+    return () => {
+      document.body.style.overflow = 'auto';
+    };
+  }, [cartOpen]);
+  
   // Add item to cart
   const addToCart = (product) => {
     setCartItems(prevItems => {

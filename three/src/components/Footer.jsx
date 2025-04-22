@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 function Footer() {
   return (
@@ -21,9 +22,9 @@ function Footer() {
         <div className="footer-social">
           <h4>Connect With Us</h4>
           <div className="social-icons">
-            <span className="icon">FB</span>
-            <span className="icon">IG</span>
-            <span className="icon">TW</span>
+            <span className="icon"><FaFacebook /></span>
+            <span className="icon"><FaInstagram /></span>
+            <span className="icon"><FaTwitter /></span>
           </div>
         </div>
       </div>
