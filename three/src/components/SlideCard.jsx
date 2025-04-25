@@ -1,5 +1,4 @@
 import React from 'react';
-import ModelViewer from './ModelViewer';
 
 const SlideCard = ({ product, onAddToCart }) => {
   return (
@@ -7,13 +6,10 @@ const SlideCard = ({ product, onAddToCart }) => {
       <div className="slide-card">
         <div className="slide-card-front">
           <div className="menu-card-image">
-            <ModelViewer 
-              modelType={product.model.type}
-              modelPath={product.model.path}
-              materialPath={product.model.materialPath}
-              scale={product.model.scale}
-              position={product.model.position}
-              rotation={product.model.rotation}
+            <img 
+              src={product.image} 
+              alt={product.name}
+              className="menu-item-image"
             />
           </div>
           <div className="menu-card-content">

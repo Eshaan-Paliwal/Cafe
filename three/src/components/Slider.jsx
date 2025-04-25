@@ -1,30 +1,22 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 
 const Slider = ({ slides }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isTransitioning, setIsTransitioning] = useState(false);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      goToNextSlide();
-    }, 5000);
-    
-    return () => clearInterval(interval);
-  }, [currentSlide]);
-
-  const goToNextSlide = () => {
+  const goToNextSlide = useCallback(() => {
     if (!isTransitioning) {
       setIsTransitioning(true);
       setCurrentSlide((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
-      setTimeout(() => setIsTransitioning(false), 500);
+      setTimeout(() => setIsTransitioning(false), 300);
     }
-  };
+  }, [isTransitioning, slides.length]);
 
   const goToPrevSlide = () => {
     if (!isTransitioning) {
       setIsTransitioning(true);
       setCurrentSlide((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
-      setTimeout(() => setIsTransitioning(false), 500);
+      setTimeout(() => setIsTransitioning(false), 300);
     }
   };
 
@@ -32,9 +24,14 @@ const Slider = ({ slides }) => {
     if (!isTransitioning && index !== currentSlide) {
       setIsTransitioning(true);
       setCurrentSlide(index);
-      setTimeout(() => setIsTransitioning(false), 500);
+      setTimeout(() => setIsTransitioning(false), 300);
     }
   };
+
+  useEffect(() => {
+    const interval = setInterval(goToNextSlide, 3000);
+    return () => clearInterval(interval);
+  }, [goToNextSlide]);
 
   return (
     <div className="slider-container">
@@ -42,10 +39,10 @@ const Slider = ({ slides }) => {
         {slides.map((slide, index) => (
           <div
             key={index}
-            className={`slide ${index === currentSlide ? 'active' : ''}`}
+            className={`slide ${index === currentSlide ? 'active' : ''} ${isTransitioning ? 'transitioning' : ''}`}
             style={{ backgroundImage: `url(${slide.image})` }}
           >
-            <div className="slide-content">
+            <div className={`slide-content ${index === currentSlide ? 'active' : ''}`}>
               <h2>{slide.title}</h2>
               <p>{slide.description}</p>
               {slide.button && (
