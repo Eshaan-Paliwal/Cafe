@@ -3,8 +3,10 @@ import { Link } from 'react-router-dom';
 import Slider from './Slider';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaCoffee, FaLeaf, FaCrown, FaQuoteLeft, FaStar } from 'react-icons/fa';
+import { useCart } from '../context/CartContext';
 
 function Home() {
+  const { addToCart } = useCart();
   // State for order confirmation alert
   const [showOrderAlert, setShowOrderAlert] = useState(false);
 
@@ -19,7 +21,7 @@ function Home() {
   // Slide data for the slider
   const sliderData = [
     {
-      image: 'https://images.unsplash.com/photo-1497636577773-f1231844b336?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+      image: '/duskfall-crew-wLfGhTKrbf4-unsplash.jpg',
       title: 'Welcome to Cozy Corner Café',
       description: 'Experience the perfect blend of comfort and taste',
       button: {
@@ -28,7 +30,7 @@ function Home() {
       }
     },
     {
-      image: 'https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+      image: '/yosuke-ota-GUcabuY3q80-unsplash.jpg',
       title: 'Artisan Coffee & Pastries',
       description: 'Freshly brewed coffee and baked goods made with love',
       button: {
@@ -37,7 +39,7 @@ function Home() {
       }
     },
     {
-      image: 'https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+      image: '/evgeniya-pron-yRbkVqAHu0Q-unsplash.jpg',
       title: 'Reserve Your Table',
       description: 'Plan your perfect café experience with us',
       button: {
@@ -119,6 +121,192 @@ function Home() {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  // Quiz section
+  const [currentQuestion, setCurrentQuestion] = useState(0);
+  const [quizResponses, setQuizResponses] = useState([]);
+  const [quizQuestions, setQuizQuestions] = useState([
+    {
+      question: "What are you in the mood for?",
+      options: [
+        { text: "Coffee", value: "coffee" },
+        { text: "Something Sweet", value: "sweet" },
+        { text: "Something Savory", value: "savory" },
+        { text: "I'm not sure", value: "anything" }
+      ]
+    },
+    {
+      question: "How hungry are you?",
+      options: [
+        { text: "Just a small snack", value: "snack" },
+        { text: "Moderately hungry", value: "moderate" },
+        { text: "Very hungry", value: "meal" },
+        { text: "Just a drink", value: "drink" }
+      ]
+    },
+    {
+      question: "Do you prefer hot or cold items?",
+      options: [
+        { text: "Hot", value: "hot" },
+        { text: "Cold", value: "cold" },
+        { text: "Room temperature", value: "room_temp" },
+        { text: "No preference", value: "any_temp" }
+      ]
+    }
+  ]);
+  const [recommendedMeal, setRecommendedMeal] = useState(null);
+
+  // Product database for recommendations
+  const products = [
+    {
+      id: 1,
+      name: "House Blend",
+      description: "Our signature medium roast coffee with notes of chocolate and caramel",
+      price: "₹250",
+      image: "/hanvin-cheong-XaaT7S3oYd4-unsplash.jpg",
+      details: "Sourced from small farms in Ethiopia and Colombia, our House Blend is carefully roasted to bring out the natural sweetness and complexity of the beans.",
+      tags: ["coffee", "drink", "hot", "anything", "any_temp"]
+    },
+    {
+      id: 2,
+      name: "Cappuccino",
+      description: "Espresso with steamed milk and a thick layer of creamy foam",
+      price: "₹320",
+      image: "/j-torres-Huq29oTUOmI-unsplash.jpg",
+      details: "Our cappuccino features a double shot of our signature espresso topped with velvety steamed milk and a thick layer of microfoam.",
+      tags: ["coffee", "drink", "hot", "anything", "any_temp"]
+    },
+    {
+      id: 3,
+      name: "Mocha",
+      description: "Espresso with rich chocolate and steamed milk, topped with whipped cream",
+      price: "₹350",
+      image: "/mustafa-fatemi-Iy63wBayBhQ-unsplash.jpg",
+      details: "Indulge in our luxurious mocha, combining our bold espresso with premium dark chocolate, steamed milk, and topped with fresh whipped cream.",
+      tags: ["coffee", "sweet", "drink", "hot", "anything", "any_temp"]
+    },
+    {
+      id: 4,
+      name: "Cold Brew",
+      description: "Smooth, low-acidity coffee brewed with cold water for 12+ hours",
+      price: "₹330",
+      image: "/takafumi-yamashita-TvceFePJuaE-unsplash.jpg",
+      details: "Our cold brew is steeped for a minimum of 12 hours in cold, filtered water for a refreshing finish.",
+      tags: ["coffee", "drink", "cold", "anything", "any_temp"]
+    },
+    {
+      id: 5,
+      name: "Cinnamon Roll",
+      description: "Soft, warm roll with cinnamon swirl and cream cheese frosting",
+      price: "₹240",
+      image: "/carissa-gan-LdfLThHJB7c-unsplash.jpg",
+      details: "Our cinnamon rolls are baked fresh daily, featuring a soft, fluffy dough with a perfect cinnamon swirl.",
+      tags: ["sweet", "snack", "hot", "moderate", "anything", "any_temp"]
+    },
+    {
+      id: 6,
+      name: "Chocolate Cake",
+      description: "Rich, moist chocolate cake with smooth ganache frosting",
+      price: "₹260",
+      image: "/sam-moghadam-yxZSAjyToP4-unsplash.jpg",
+      details: "Our chocolate cake is made with premium cocoa and topped with a silky smooth chocolate ganache.",
+      tags: ["sweet", "moderate", "snack", "room_temp", "anything", "any_temp"]
+    },
+    {
+      id: 7,
+      name: "Hamburger",
+      description: "Juicy beef patty with fresh vegetables and special sauce",
+      price: "₹580",
+      image: "/lia-den-z4sge-mh2gM-unsplash.jpg",
+      details: "Our signature hamburger features a juicy beef patty, fresh lettuce, tomato, onion, and our special sauce.",
+      tags: ["savory", "meal", "hot", "moderate", "anything", "any_temp"]
+    },
+    {
+      id: 8,
+      name: "Chocolate Cupcake",
+      description: "Decadent chocolate cupcake with marshmallow frosting",
+      price: "₹220",
+      image: "/goodeats-yqr-MGskjWZDdhg-unsplash.jpg",
+      details: "Our chocolate cupcakes are topped with fluffy marshmallow frosting and chocolate drizzle.",
+      tags: ["sweet", "snack", "room_temp", "anything", "any_temp"]
+    }
+  ];
+
+  const handleQuizAnswer = (value) => {
+    // Save the response
+    const newResponses = [...quizResponses, value];
+    setQuizResponses(newResponses);
+    
+    // Move to next question or show result
+    if (currentQuestion < quizQuestions.length - 1) {
+      setCurrentQuestion(currentQuestion + 1);
+    } else {
+      // Find best match based on the responses
+      setTimeout(() => {
+        const bestMatch = findBestMatch(newResponses);
+        setRecommendedMeal(bestMatch);
+      }, 1000); // Add a slight delay to show loading effect
+    }
+  };
+
+  const findBestMatch = (responses) => {
+    // Simple scoring algorithm: products with more matching tags get higher scores
+    let bestProduct = products[0];
+    let highestScore = 0;
+    
+    console.log("Quiz responses:", responses);
+    
+    products.forEach(product => {
+      let score = 0;
+      responses.forEach(response => {
+        if (product.tags.includes(response)) {
+          score += 1;
+        }
+      });
+      
+      console.log(`Product: ${product.name}, Score: ${score}, Tags: ${product.tags.join(', ')}`);
+      
+      if (score > highestScore) {
+        highestScore = score;
+        bestProduct = product;
+      }
+    });
+    
+    console.log("Best match:", bestProduct.name, "with score:", highestScore);
+    
+    // Fallback if no good match (score 0)
+    if (highestScore === 0) {
+      // Default to a popular item
+      bestProduct = products.find(p => p.id === 3) || products[0]; // Mocha or first product
+      console.log("No good match found, defaulting to:", bestProduct.name);
+    }
+    
+    return bestProduct;
+  };
+
+  const handleAddRecommended = (product) => {
+    // Format the product to match the required format for addToCart
+    const cartProduct = {
+      id: product.id,
+      name: product.name,
+      price: product.price,
+      image: product.image,
+      description: product.description,
+      quantity: 1
+    };
+    
+    addToCart(cartProduct);
+    setShowOrderAlert(true);
+    setTimeout(() => {
+      setShowOrderAlert(false);
+    }, 8000);
+  };
+
+  const resetQuiz = () => {
+    setCurrentQuestion(0);
+    setQuizResponses([]);
+    setRecommendedMeal(null);
+  };
 
   return (
     <div className="home-section">
@@ -317,7 +505,9 @@ function Home() {
             }}
             transition={{ type: "spring", stiffness: 300 }}
           >
-            <div className="item-image placeholder"><FaCoffee /></div>
+            <div className="item-image">
+              <img src="/j-torres-Huq29oTUOmI-unsplash.jpg" alt="Signature Latte" />
+            </div>
             <h4>Signature Latte</h4>
             <p>Our house specialty with a hint of vanilla and cinnamon</p>
           </motion.div>
@@ -329,9 +519,9 @@ function Home() {
             }}
             transition={{ type: "spring", stiffness: 300 }}
           >
-            <div className="item-image placeholder"><svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
-              <path d="M12 6c1.11 0 2-.9 2-2 0-.38-.1-.73-.29-1.03L12 0l-1.71 2.97c-.19.3-.29.65-.29 1.03 0 1.1.9 2 2 2zm4.6 9.99l-1.07-1.07-1.08 1.07c-1.3 1.3-3.58 1.31-4.89 0l-1.07-1.07-1.09 1.07C6.75 16.64 5.88 17 4.96 17c-.73 0-1.4-.23-1.96-.61V21c0 .55.45 1 1 1h16c.55 0 1-.45 1-1v-4.61c-.56.38-1.23.61-1.96.61-.92 0-1.79-.36-2.44-1.01zM18 9h-5V7h-2v2H6c-1.66 0-3 1.34-3 3v1.54c0 1.08.88 1.96 1.96 1.96.52 0 1.02-.2 1.38-.57l2.14-2.13 2.13 2.13c.74.74 2.03.74 2.77 0l2.14-2.13 2.13 2.13c.37.37.86.57 1.38.57 1.08 0 1.96-.88 1.96-1.96V12C21 10.34 19.66 9 18 9z" />
-            </svg></div>
+            <div className="item-image">
+              <img src="/carissa-gan-LdfLThHJB7c-unsplash.jpg" alt="Artisan Pastries" />
+            </div>
             <h4>Artisan Pastries</h4>
             <p>Freshly baked daily with local ingredients</p>
           </motion.div>
@@ -343,14 +533,97 @@ function Home() {
             }}
             transition={{ type: "spring", stiffness: 300 }}
           >
-            <div className="item-image placeholder"><svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
-              <path d="M18.06 22.99h1.66c.84 0 1.53-.64 1.63-1.46L23 5.05h-5V1h-1.97v4.05h-4.97l.3 2.34c1.71.47 3.31 1.32 4.27 2.26 1.44 1.42 2.43 2.89 2.43 5.29v8.05zM1 21.99V21h15.03v.99c0 .55-.45 1-1.01 1H2.01c-.56 0-1.01-.45-1.01-1zm15.03-7c0-8-15.03-8-15.03 0h15.03zM1.02 17h15v2h-15z" />
-            </svg></div>
+            <div className="item-image">
+              <img src="/shawn-rain-w2OR6nomP-E-unsplash.jpg" alt="Breakfast Special" />
+            </div>
             <h4>Breakfast Special</h4>
             <p>A hearty start to your day, available until 11am</p>
           </motion.div>
         </div>
       </div>
+
+      {/* Quiz Section */}
+      <section className="quiz-section">
+        <motion.h2 
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          className="section-title"
+        >
+          Find Your Perfect Meal
+        </motion.h2>
+        
+        <div className="quiz-container">
+          {currentQuestion < quizQuestions.length ? (
+            <motion.div 
+              className="quiz-question-container"
+              key={currentQuestion}
+              initial={{ opacity: 0, x: 50 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: -50 }}
+              transition={{ duration: 0.5 }}
+            >
+              <h3 className="question-text">{quizQuestions[currentQuestion].question}</h3>
+              <div className="quiz-options">
+                {quizQuestions[currentQuestion].options.map((option, index) => (
+                  <motion.button
+                    key={index}
+                    className="quiz-option-btn"
+                    whileHover={{ scale: 1.03, boxShadow: '0 5px 15px rgba(187, 134, 252, 0.3)' }}
+                    onClick={() => handleQuizAnswer(option.value)}
+                  >
+                    {option.text}
+                  </motion.button>
+                ))}
+              </div>
+            </motion.div>
+          ) : (
+            <motion.div 
+              className="quiz-result"
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.5 }}
+            >
+              {recommendedMeal ? (
+                <>
+                  <div className="result-header">
+                    <h3>Your Perfect Meal</h3>
+                    <p>Based on your preferences, we recommend:</p>
+                  </div>
+                  
+                  <div className="recommendation-card">
+                    <div className="recommendation-image">
+                      <img src={recommendedMeal.image} alt={recommendedMeal.name} />
+                    </div>
+                    <div className="recommendation-details">
+                      <h4>{recommendedMeal.name}</h4>
+                      <p>{recommendedMeal.description}</p>
+                      <p className="recommendation-price">{recommendedMeal.price}</p>
+                      <button 
+                        className="add-recommended-btn"
+                        onClick={() => handleAddRecommended(recommendedMeal)}
+                      >
+                        Add to Cart
+                      </button>
+                    </div>
+                  </div>
+                </>
+              ) : (
+                <div className="loading-recommendation">
+                  <p>Finding your perfect meal...</p>
+                </div>
+              )}
+              
+              <button 
+                className="restart-quiz-btn"
+                onClick={resetQuiz}
+              >
+                Take Quiz Again
+              </button>
+            </motion.div>
+          )}
+        </div>
+      </section>
 
       {/* Call to Action */}
       <motion.section 
