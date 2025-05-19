@@ -196,12 +196,12 @@ function Home() {
     },
     {
       id: 5,
-      name: "Cinnamon Roll",
-      description: "Soft, warm roll with cinnamon swirl and cream cheese frosting",
-      price: "₹240",
-      image: "/carissa-gan-LdfLThHJB7c-unsplash.jpg",
-      details: "Our cinnamon rolls are baked fresh daily, featuring a soft, fluffy dough with a perfect cinnamon swirl.",
-      tags: ["sweet", "snack", "hot", "moderate", "anything", "any_temp"]
+      name: "Croissant",
+      description: "Buttery, flaky pastry with a light, airy texture",
+      price: "₹180",
+      image: "/croissant.jpg",
+      details: "Our croissants are made fresh daily using traditional French techniques and premium butter.",
+      tags: ["sweet", "snack", "room_temp", "anything", "any_temp"]
     },
     {
       id: 6,
@@ -554,7 +554,7 @@ function Home() {
         </motion.h2>
         
         <div className="quiz-container">
-          {currentQuestion < quizQuestions.length ? (
+          {!recommendedMeal ? (
             <motion.div 
               className="quiz-question-container"
               key={currentQuestion}
@@ -584,35 +584,26 @@ function Home() {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5 }}
             >
-              {recommendedMeal ? (
-                <>
-                  <div className="result-header">
-                    <h3>Your Perfect Meal</h3>
-                    <p>Based on your preferences, we recommend:</p>
+              <div className="recommendation-section">
+                <h3>Your Perfect Match</h3>
+                
+                <div className="recommendation-card">
+                  <div className="recommendation-image">
+                    <img src={recommendedMeal.image} alt={recommendedMeal.name} />
                   </div>
-                  
-                  <div className="recommendation-card">
-                    <div className="recommendation-image">
-                      <img src={recommendedMeal.image} alt={recommendedMeal.name} />
-                    </div>
-                    <div className="recommendation-details">
-                      <h4>{recommendedMeal.name}</h4>
-                      <p>{recommendedMeal.description}</p>
-                      <p className="recommendation-price">{recommendedMeal.price}</p>
-                      <button 
-                        className="add-recommended-btn"
-                        onClick={() => handleAddRecommended(recommendedMeal)}
-                      >
-                        Add to Cart
-                      </button>
-                    </div>
+                  <div className="recommendation-details">
+                    <h4>{recommendedMeal.name}</h4>
+                    <p>{recommendedMeal.description}</p>
+                    <p className="recommendation-price">{recommendedMeal.price}</p>
+                    <button 
+                      className="add-recommended-btn"
+                      onClick={() => handleAddRecommended(recommendedMeal)}
+                    >
+                      Add to Cart
+                    </button>
                   </div>
-                </>
-              ) : (
-                <div className="loading-recommendation">
-                  <p>Finding your perfect meal...</p>
                 </div>
-              )}
+              </div>
               
               <button 
                 className="restart-quiz-btn"

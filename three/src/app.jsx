@@ -14,9 +14,29 @@ import Cart from './components/Cart';
 import Reservation from './components/Reservation';
 import LoadingAnimation from './components/LoadingAnimation';
 import PageTransition from './components/PageTransition';
+import IncorrectDelivery from './components/IncorrectDelivery';
+import Login from './components/Login';
+import Register from './components/Register';
+import Profile from './components/Profile';
 
 // Import context
 import { CartProvider } from './context/CartContext';
+import { AuthProvider, useAuth } from './context/AuthContext';
+
+// Protected Route component
+const ProtectedRoute = ({ children }) => {
+  const { user, loading } = useAuth();
+  
+  if (loading) {
+    return <div>Loading...</div>;
+  }
+  
+  if (!user) {
+    return <Navigate to="/login" />;
+  }
+  
+  return children;
+};
 
 // AnimatePresence needs to be used outside of Routes for page transitions
 const AnimatedRoutes = () => {
@@ -50,6 +70,30 @@ const AnimatedRoutes = () => {
             <Reservation />
           </PageTransition>
         } />
+        <Route path="/incorrect-delivery" element={
+          <PageTransition>
+            <ProtectedRoute>
+              <IncorrectDelivery />
+            </ProtectedRoute>
+          </PageTransition>
+        } />
+        <Route path="/login" element={
+          <PageTransition>
+            <Login />
+          </PageTransition>
+        } />
+        <Route path="/register" element={
+          <PageTransition>
+            <Register />
+          </PageTransition>
+        } />
+        <Route path="/profile" element={
+          <PageTransition>
+            <ProtectedRoute>
+              <Profile />
+            </ProtectedRoute>
+          </PageTransition>
+        } />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </AnimatePresence>
@@ -73,22 +117,24 @@ function App() {
       {isLoading ? (
         <LoadingAnimation onLoadComplete={() => setIsLoading(false)} />
       ) : (
-        <CartProvider>
-          <Router>
-            <div className="app-content visible">
-              <div className="cafe-container">
-                <Header />
-                
-                <main className="cafe-main">
-                  <AnimatedRoutes />
-                </main>
-                
-                <Cart />
-                <Footer />
+        <AuthProvider>
+          <CartProvider>
+            <Router>
+              <div className="app-content visible">
+                <div className="cafe-container">
+                  <Header />
+                  
+                  <main className="cafe-main">
+                    <AnimatedRoutes />
+                  </main>
+                  
+                  <Cart />
+                  <Footer />
+                </div>
               </div>
-            </div>
-          </Router>
-        </CartProvider>
+            </Router>
+          </CartProvider>
+        </AuthProvider>
       )}
     </>
   );
