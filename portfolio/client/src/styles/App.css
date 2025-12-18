@@ -2,12 +2,14 @@
   min-height: calc(100vh - 70px - 200px);
   padding: 0;
   flex: 1;
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background: linear-gradient(135deg, var(--color-bg-secondary) 0%, rgba(195, 207, 226, 0.3) 100%);
+  transition: background 0.5s ease;
 }
 
 .App {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background: #fff;
+  background: var(--color-bg);
+  transition: background-color 0.5s ease;
 }

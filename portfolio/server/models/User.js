@@ -21,6 +21,46 @@ const userSchema = new mongoose.Schema(
       enum: ['admin', 'user'],
       default: 'user',
     },
+    // Portfolio profile data
+    title: String, // e.g., "Full Stack Developer"
+    bio: String,
+    phone: String,
+    location: String,
+    profileImage: String,
+    skills: [{
+      name: String,
+      category: String, // Frontend, Backend, Tools, etc.
+      proficiency: {
+        type: String,
+        enum: ['Beginner', 'Intermediate', 'Advanced', 'Expert'],
+        default: 'Intermediate'
+      }
+    }],
+    experience: [{
+      title: String,
+      company: String,
+      description: String,
+      startDate: Date,
+      endDate: Date,
+      current: Boolean,
+      technologies: [String]
+    }],
+    education: [{
+      school: String,
+      degree: String,
+      field: String,
+      startDate: Date,
+      endDate: Date,
+      gpa: String,
+      details: String
+    }],
+    socialLinks: {
+      github: String,
+      linkedin: String,
+      twitter: String,
+      portfolio: String
+    },
+    resumeUrl: String,
   },
   { timestamps: true }
 );
