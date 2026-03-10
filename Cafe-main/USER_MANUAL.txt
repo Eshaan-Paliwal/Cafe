@@ -1,0 +1,1271 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║            COZY CORNER CAFÉ - PROFESSIONAL USER MANUAL                       ║
+║                    Complete Guide to Website Features                         ║
+║                                                                              ║
+║                          ENGLISH | हिंदी (HINDI)                             ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+================================================================================
+                         TABLE OF CONTENTS
+================================================================================
+
+ENGLISH SECTION:
+1. Getting Started & Home Page
+2. User Registration & Login
+3. Menu & Ordering System
+4. Shopping Cart & Checkout
+5. Profile Management
+6. Order History
+7. Table Reservations
+8. Contact & Support
+
+हिंदी अनुभाग (HINDI SECTION):
+1. शुरुआत करना और होम पेज
+2. उपयोगकर्ता पंजीकरण और लॉगिन
+3. मेनू और ऑर्डरिंग सिस्टम
+4. शॉपिंग कार्ट और चेकआउट
+5. प्रोफाइल प्रबंधन
+6. ऑर्डर इतिहास
+7. टेबल रिजर्वेशन
+8. संपर्क और सहायता
+
+═══════════════════════════════════════════════════════════════════════════════
+
+
+                        ╔═══════════════════════════╗
+                        ║  ENGLISH SECTION          ║
+                        ╚═══════════════════════════╝
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. GETTING STARTED & HOME PAGE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WELCOME TO COZY CORNER CAFÉ
+This is a modern coffee shop web application where you can order delicious 
+beverages and food items, make table reservations, and manage your account.
+
+MAIN FEATURES ON HOME PAGE:
+────────────────────────────────────────────────────────────────────────────
+
+✓ SLIDER SECTION
+  - Beautiful image carousel showcasing the café's atmosphere
+  - Buttons to navigate to Menu, About section, and Reservations
+  - Click on slider images to view featured items
+
+✓ DAILY SPECIALS
+  - Caramel Macchiato (₹4.50) - Espresso with vanilla and caramel
+  - Matcha Latte (₹5.25) - Premium ceremonial matcha with steamed milk
+  - Royal Breakfast (₹12.99) - Eggs Benedict with salmon and avocado
+  - Click "Order Now" to add specials to your cart
+
+✓ TESTIMONIALS SECTION
+  - Reviews from real customers
+  - Star ratings for each review
+  - Feedback about our service and products
+
+✓ ANIMATED COUNTERS
+  - Number of coffee beans roasted
+  - Current customer base
+  - Number of unique recipes
+
+NAVIGATION MENU:
+────────────────────────────────────────────────────────────────────────────
+
+Top Navigation Bar contains:
+- Home: Return to main page
+- Menu: Browse and order items
+- About: Learn about our café
+- Reservation: Book a table
+- Contact: Send us a message
+- Cart Icon: View your shopping cart (shows item count)
+- User Profile Icon: Access account settings
+
+═══════════════════════════════════════════════════════════════════════════════
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. USER REGISTRATION & LOGIN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+REGISTRATION (Creating a New Account):
+────────────────────────────────────────────────────────────────────────────
+
+Steps to Register:
+1. Click on the "User Profile" icon in the navigation bar
+2. Select "Sign Up" or click the "Don't have an account? Sign Up" link
+3. Fill in the registration form with:
+   - Full Name: Enter your complete name
+   - Email: Enter a valid email address
+   - Password: Create a strong password (minimum 6 characters)
+   - Confirm Password: Re-enter your password to verify
+
+4. Click "Create Account" button
+5. You'll be automatically logged in and redirected to the home page
+
+IMPORTANT NOTES:
+✓ Use a valid email address you have access to
+✓ Password must be at least 6 characters long
+✓ Passwords must match in both fields
+✓ Email addresses cannot be reused
+✓ Your account is stored securely in the system
+
+
+LOGIN (Accessing Your Account):
+────────────────────────────────────────────────────────────────────────────
+
+Steps to Login:
+1. Click on the "User Profile" icon in the navigation bar
+2. Enter your registered email address
+3. Enter your password
+4. Click "Sign In" button
+5. You'll be logged in and returned to the home page
+
+IF YOU FORGET YOUR PASSWORD:
+✓ Contact customer support with your email address
+✓ We'll help you recover your account
+✓ Email: hello@cozycornercafe.com
+
+═══════════════════════════════════════════════════════════════════════════════
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. MENU & ORDERING SYSTEM
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BROWSING THE MENU:
+────────────────────────────────────────────────────────────────────────────
+
+1. Click "Menu" in the navigation bar
+2. Browse through different categories:
+   - Coffee & Espresso
+   - Pastries & Snacks
+
+COFFEE & ESPRESSO ITEMS (₹250 - ₹330):
+✓ House Blend (₹250) - Signature medium roast with chocolate and caramel notes
+✓ Cappuccino (₹320) - Espresso with steamed milk and creamy foam
+✓ Mocha (₹350) - Espresso with rich chocolate and whipped cream
+✓ Cold Brew (₹330) - Smooth cold water brewed coffee
+
+
+PASTRIES & SNACKS (₹220 - ₹580):
+✓ Cinnamon Roll (₹240) - Soft roll with cinnamon swirl and cream cheese frosting
+✓ Chocolate Cake (₹260) - Rich moist cake with chocolate ganache
+✓ Hamburger (₹580) - Juicy beef patty with fresh vegetables and special sauce
+✓ Chocolate Cupcake (₹220) - Decadent cupcake with marshmallow frosting
+
+
+HOW TO ORDER AN ITEM:
+────────────────────────────────────────────────────────────────────────────
+
+1. Hover over any menu item to see a preview
+2. Click on the item card to view full details:
+   - Name and description
+   - Price
+   - Complete ingredients list
+   - Calorie information
+   - High-quality food photograph
+
+3. Click "Add to Cart" button (or "Tap for details" on mobile)
+4. The item is added immediately to your shopping cart
+5. You'll see a confirmation that the item was added
+6. Continue browsing or proceed to checkout
+
+
+ITEM DETAILS:
+────────────────────────────────────────────────────────────────────────────
+Each item includes:
+✓ Description - What to expect from this item
+✓ Price - Cost in Indian Rupees (₹)
+✓ Ingredients - Complete list of ingredients used
+✓ Calories - Nutritional information for the item
+✓ Professional food photography
+
+═══════════════════════════════════════════════════════════════════════════════
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. SHOPPING CART & CHECKOUT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ACCESSING YOUR CART:
+────────────────────────────────────────────────────────────────────────────
+
+1. Click the Shopping Cart icon in the top navigation bar
+2. A sidebar will open showing:
+   - All items currently in your cart
+   - Item quantities
+   - Individual item prices
+   - Remove button for each item
+   - Subtotal, tax, and total amount
+
+MANAGING CART ITEMS:
+────────────────────────────────────────────────────────────────────────────
+
+INCREASE/DECREASE QUANTITY:
+- Use the + and - buttons next to each item
+- Or enter quantity directly
+- Total price updates automatically
+
+REMOVE ITEMS:
+- Click the "Remove" button next to an item
+- Item is deleted from your cart immediately
+- Total recalculates
+
+CLEAR ENTIRE CART:
+- Click "Clear Cart" button
+- This removes all items at once
+- Confirmation message appears
+
+VIEWING CART SUMMARY:
+────────────────────────────────────────────────────────────────────────────
+The cart displays:
+✓ Subtotal - Sum of all item prices
+✓ Tax (8%) - Automatically calculated
+✓ Total - Subtotal + Tax
+✓ Number of items in cart
+
+
+CHECKOUT PROCESS:
+────────────────────────────────────────────────────────────────────────────
+
+Step 1: REVIEW YOUR ORDER
+- Click "Proceed to Checkout"
+- Verify all items and quantities are correct
+- Review the total amount including tax
+
+Step 2: ENTER BILLING INFORMATION
+- Full Name (as it appears on payment method)
+- Email Address (for order confirmation)
+- Phone Number (for delivery contact)
+- Delivery Address (complete street address)
+
+Step 3: PAYMENT INFORMATION
+- Card Number (16-digit credit/debit card number)
+- Expiry Date (MM/YY format)
+- CVV/CVC (3-digit security code on the back)
+
+Step 4: CONFIRM ORDER
+- Review all information
+- Click "Place Order" to finalize
+- Order confirmation screen with reference number
+
+PAYMENT DETAILS:
+────────────────────────────────────────────────────────────────────────────
+✓ We accept all major credit and debit cards
+✓ Payment is processed securely
+✓ Your card details are not stored
+✓ You'll receive email confirmation immediately
+✓ Estimated delivery time: 30-45 minutes
+
+AFTER CHECKOUT:
+────────────────────────────────────────────────────────────────────────────
+1. You'll see a confirmation message with:
+   - Order Reference Number
+   - Confirmation Email sent to your address
+   
+2. Your order is automatically added to Order History
+3. You can continue shopping or proceed to checkout again
+
+═══════════════════════════════════════════════════════════════════════════════
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+5. PROFILE MANAGEMENT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ACCESSING YOUR PROFILE:
+────────────────────────────────────────────────────────────────────────────
+
+1. Click on your Profile icon in the top navigation bar
+2. Select "Profile" from the sidebar
+3. Your profile page opens with three tabs: Profile, Orders, Settings
+
+
+PROFILE TAB - EDIT YOUR INFORMATION:
+────────────────────────────────────────────────────────────────────────────
+
+BASIC INFORMATION:
+✓ Full Name - Your name as you'd like it displayed
+✓ Email - Your account email address
+✓ Phone Number - Contact number for your account
+✓ Address - Saved delivery address used in checkout
+
+
+PROFILE PICTURE:
+1. Click on your current profile picture or "Upload Image" button
+2. Select a JPG or PNG image from your computer
+3. Image will be used as your account avatar
+4. Maximum file size: 5MB
+
+UPDATING PROFILE:
+1. Modify any of the fields
+2. Click "Save Changes"
+3. Success message: "Profile updated successfully!"
+4. Changes take effect immediately
+
+
+CHANGING PASSWORD:
+────────────────────────────────────────────────────────────────────────────
+
+1. Go to Profile > Settings tab
+2. Enter your current password for verification
+3. Enter your new password (minimum 6 characters)
+4. Confirm new password
+5. Click "Change Password"
+6. You'll be logged out and need to log in with the new password
+
+IMPORTANT: Never share your password with anyone
+
+
+PROFILE SETTINGS:
+────────────────────────────────────────────────────────────────────────────
+
+NOTIFICATION PREFERENCES:
+✓ Email notifications for new orders
+✓ Phone notifications for special offers
+✓ News and promotions emails
+✓ Toggle each notification type on/off
+
+PAYMENT METHOD:
+✓ Saved credit/debit cards
+✓ Add new payment method
+✓ Remove existing payment methods
+
+═══════════════════════════════════════════════════════════════════════════════
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+6. ORDER HISTORY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+VIEWING ORDER HISTORY:
+────────────────────────────────────────────────────────────────────────────
+
+1. Click Profile icon in navigation bar
+2. Select "Orders" tab or "Order History" from sidebar
+3. View all your past orders listed with:
+   - Order ID (unique reference number)
+   - Order Date
+   - Items ordered
+   - Total amount
+   - Current status
+
+
+UNDERSTANDING ORDER STATUS:
+────────────────────────────────────────────────────────────────────────────
+
+✓ PENDING - Order received, being prepared
+✓ PROCESSING - Items are being packaged
+✓ IN TRANSIT - Your order is on the way
+✓ DELIVERED - Order successfully delivered
+✓ CANCELLED - Order was cancelled
+
+COLOR CODING:
+- Green: Order delivered or in progress
+- Yellow: Order pending
+- Red: Order cancelled or issue
+
+
+ORDER DETAILS:
+────────────────────────────────────────────────────────────────────────────
+
+Each order shows:
+✓ Order Number: Unique reference (e.g., ORD001)
+✓ Order Date: When the order was placed
+✓ Items Ordered: List of all items with quantity
+✓ Unit Prices: Individual item costs
+✓ Order Total: Complete amount with tax
+✓ Delivery Address: Where order was sent
+✓ Contact Information: Phone number used
+
+
+REORDERING PREVIOUS ORDERS:
+────────────────────────────────────────────────────────────────────────────
+
+1. Find the order you want to repeat
+2. Click "Reorder" button
+3. All items from that order are added to your current cart
+4. You can modify quantities or remove items
+5. Proceed to checkout as normal
+
+
+TRACKING ORDER:
+────────────────────────────────────────────────────────────────────────────
+
+1. Find the order in your history
+2. Click on the order to expand details
+3. View current status and estimated delivery time
+4. Track real-time location updates (when available)
+
+═══════════════════════════════════════════════════════════════════════════════
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+7. TABLE RESERVATIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+MAKING A RESERVATION:
+────────────────────────────────────────────────────────────────────────────
+
+1. Click "Reservation" in navigation menu
+2. Follow the 3-step reservation process:
+   Step 1: Select Date & Time
+   Step 2: Choose your Table
+   Step 3: Enter Contact Information
+
+
+STEP 1: SELECT DATE & TIME
+────────────────────────────────────────────────────────────────────────────
+
+CHOOSE DATE:
+- Click on the calendar picker
+- Select any future date
+- Past dates cannot be selected
+
+CHOOSE TIME:
+- After selecting date, available time slots appear
+- Options available:
+  10:00 AM, 10:30 AM, 11:00 AM, 11:30 AM,
+  12:00 PM, 12:30 PM, 1:00 PM, 1:30 PM,
+  2:00 PM, 2:30 PM, 3:00 PM, 3:30 PM,
+  4:00 PM, 4:30 PM, 5:00 PM, 5:30 PM,
+  6:00 PM, 6:30 PM, 7:00 PM, 7:30 PM,
+  8:00 PM, 8:30 PM
+
+SELECT PARTY SIZE:
+- Number of guests: 1-8 people minimum
+- Use + / - buttons to set quantity
+- Remember: Table sizes vary (2, 4, 6, or 8 seats)
+
+CLICK "NEXT STEP" to continue
+
+
+STEP 2: SELECT TABLE
+────────────────────────────────────────────────────────────────────────────
+
+TABLE OPTIONS:
+The café has 8 tables with different seating capacities:
+
+SMALL TABLES (2 seats):
+- Table 1, 2, 6, 7 - Round tables
+- Perfect for couples or solo diners
+
+MEDIUM TABLES (4 seats):
+- Table 3, 4 - Square tables
+- Great for small groups or families
+
+LARGE TABLES (6 seats):
+- Table 5 - Rectangular table
+- Good for medium-sized groups
+
+EXTRA LARGE TABLES (8 seats):
+- Table 8 - Rectangular table
+- Perfect for large groups or celebrations
+
+FLOOR PLAN FEATURES:
+✓ Bar area with seating
+✓ Kitchen area (behind the scenes)
+✓ Restrooms (WC)
+✓ Main Entrance
+
+SELECTING A TABLE:
+1. Review the interactive floor plan
+2. Green = Available, Red = Occupied
+3. Click on any green table
+4. Table must have enough seats for your party size
+5. Warning appears if table is too small
+
+CLICK "NEXT STEP" to continue
+
+
+STEP 3: ENTER CONTACT INFORMATION
+────────────────────────────────────────────────────────────────────────────
+
+REQUIRED INFORMATION:
+
+Name:
+- Your full name as you'd like to be addressed
+
+Email:
+- Valid email address for confirmation
+
+Phone Number:
+- Mobile or landline number to contact you
+
+Special Requests (Optional):
+- High chair needed
+- Special dietary requirements
+- Occasion/celebration details
+- Seating preferences
+- Accessibility requirements
+
+COMPLETING RESERVATION:
+1. Click "Confirm Reservation"
+2. Receive booking reference number
+3. Confirmation sent to email address
+4. Save the reference number for your records
+
+
+RESERVATION CONFIRMATION:
+────────────────────────────────────────────────────────────────────────────
+
+You'll receive:
+✓ Booking Reference Number (e.g., RES-5234)
+✓ Date and Time Confirmation
+✓ Table Number Assigned
+✓ Party Size Confirmed
+✓ Special Instructions Acknowledgement
+
+SAVE THIS INFORMATION:
+- You'll need the reference number to manage your reservation
+- Screenshot the confirmation page
+- Check your email for backup confirmation
+
+
+MANAGING RESERVATIONS:
+────────────────────────────────────────────────────────────────────────────
+
+MODIFY RESERVATION:
+1. Contact customer support with your reference number
+2. Provide new date/time or party size
+3. We'll confirm availability and send updated confirmation
+
+CANCEL RESERVATION:
+1. Must cancel at least 24 hours before reservation time
+2. Contact support with reference number
+3. Cancellation confirmation will be sent
+
+CANCELLATION POLICY:
+✓ Free cancellation 24+ hours before reservation
+✓ 50% charge if cancelled less than 24 hours before
+✓ No refund for no-shows (failure to arrive)
+
+
+ARRIVAL AT CAFÉ:
+────────────────────────────────────────────────────────────────────────────
+
+When you arrive:
+1. Provide your name or booking reference number at entrance
+2. Staff will guide you to your reserved table
+3. Menu will be provided immediately
+4. Enjoy your café experience!
+
+IMPORTANT NOTES:
+✓ Please arrive 10-15 minutes early
+✓ Reserved table held for 15 minutes past reservation time
+✓ Contact café if you'll be late
+✓ Special requests will be accommodated if possible
+
+═══════════════════════════════════════════════════════════════════════════════
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+8. CONTACT & SUPPORT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CONTACTING US:
+────────────────────────────────────────────────────────────────────────────
+
+EMAIL:
+hello@cozycornercafe.com
+
+PHONE:
+Contact number will be provided on Contact page
+
+WEBSITE CONTACT FORM:
+1. Click "Contact" in navigation menu
+2. Fill in contact information:
+   - Your Name
+   - Your Email
+   - Phone Number
+   - Message Subject
+   - Your Message
+
+3. Click "Send Message"
+4. We'll respond within 24 hours
+
+SUPPORT HOURS:
+✓ Monday - Friday: 9:00 AM - 6:00 PM
+✓ Saturday: 10:00 AM - 5:00 PM
+✓ Sunday: 10:00 AM - 4:00 PM
+
+
+FREQUENTLY ASKED QUESTIONS:
+────────────────────────────────────────────────────────────────────────────
+
+Q1: How long does delivery take?
+A: Typical delivery time is 30-45 minutes from order placement.
+
+Q2: Do you accept card payments only?
+A: Yes, we currently accept all major credit and debit cards.
+
+Q3: Can I modify my order after placing it?
+A: Contact us immediately if order hasn't been prepared yet.
+
+Q4: Do you offer dietary options?
+A: Yes, we have vegetarian and vegan options. Check menu descriptions.
+
+Q5: What's your cancellation policy?
+A: Orders can be cancelled before they're marked "In Preparation".
+
+Q6: Can I reserve a table for special occasions?
+A: Yes! Contact us with special requests for birthdays, anniversaries, etc.
+
+Q7: Is there parking available?
+A: Yes, on-street parking available. Check our Contact page for details.
+
+Q8: Do you provide WiFi?
+A: Yes, free WiFi is available for all guests and online customers.
+
+
+ACCOUNT & SECURITY:
+────────────────────────────────────────────────────────────────────────────
+
+YOUR ACCOUNT IS SAFE:
+✓ Encrypted password storage
+✓ Secure payment processing
+✓ Personal data privacy respected
+✓ No account information shared with third parties
+
+ACCOUNT SECURITY TIPS:
+✓ Never share your password
+✓ Log out on shared computers
+✓ Use strong passwords (mix numbers, letters, symbols)
+✓ Update your contact information regularly
+
+IF YOU SUSPECT FRAUD:
+Contact us immediately
+- Your account will be secured
+- Investigation conducted promptly
+- New password issued
+- Full support provided
+
+═══════════════════════════════════════════════════════════════════════════════
+═══════════════════════════════════════════════════════════════════════════════
+
+
+                        ╔═══════════════════════════╗
+                        ║   हिंदी अनुभाग (HINDI)    ║
+                        ╚═══════════════════════════╝
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. शुरुआत करना और होम पेज
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+COZY CORNER CAFÉ में आपका स्वागत है
+
+यह एक आधुनिक कॉफी शॉप वेबसाइट है जहाँ आप:
+✓ स्वादिष्ट पेय पदार्थ और खाना मंगा सकते हैं
+✓ टेबल रिज़र्वेशन बुक कर सकते हैं
+✓ अपने खाते को प्रबंधित कर सकते हैं
+✓ अपने ऑर्डर इतिहास देख सकते हैं
+
+
+होम पेज की मुख्य विशेषताएं:
+────────────────────────────────────────────────────────────────────────────
+
+✓ स्लाइडर सेक्शन
+  - कॉफी शॉप की सुंदर तस्वीरें
+  - मेनू, डिटेल्स और रिज़र्वेशन के बटन
+  - विशेष आइटम देखने के लिए क्लिक करें
+
+✓ दैनिक विशेष (डेली स्पेशल)
+  - कारामेल मेकिआटो (₹4.50)
+  - मैच्चा लैट्टे (₹5.25)
+  - रॉयल ब्रेकफास्ट (₹12.99)
+  - "अभी ऑर्डर करें" बटन से कार्ट में जोड़ें
+
+✓ ग्राहक समीक्षाएं (टेस्टिमोनियल्स)
+  - असली ग्राहकों के विचार
+  - स्टार रेटिंग
+  - हमारी सेवा के बारे में फीडबैक
+
+✓ एनिमेटेड काउंटर्स
+  - कितने कॉफी बीन भूने गए
+  - कितने ग्राहक हैं
+  - कितने रेसिपी बनाई गईं
+
+
+नेविगेशन मेनू:
+────────────────────────────────────────────────────────────────────────────
+
+शीर्ष मेनू बार में निम्नलिखित विकल्प हैं:
+
+- होम (Home) - मुख्य पेज पर जाएं
+- मेनू (Menu) - खाना ब्राउज़ करें और ऑर्डर करें
+- बारे में (About) - कॉफी शॉप के बारे में जानें
+- रिज़र्वेशन (Reservation) - टेबल बुक करें
+- संपर्क (Contact) - हमें संदेश भेजें
+- कार्ट आइकन - खरीदारी की कार्ट देखें
+- प्रोफाइल आइकन - अपना खाता देखें
+
+═══════════════════════════════════════════════════════════════════════════════
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. उपयोगकर्ता पंजीकरण और लॉगिन
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+पंजीकरण (नया खाता बनाएं):
+────────────────────────────────────────────────────────────────────────────
+
+पंजीकरण के कदम:
+
+1. नेविगेशन बार में प्रोफाइल आइकन पर क्लिक करें
+2. "साइन अप" (Sign Up) या "नया खाता बनाएं" विकल्प चुनें
+3. पंजीकरण फॉर्म भरें:
+   
+   पूरा नाम (Full Name):
+   - अपना पूरा नाम दर्ज करें
+   
+   ईमेल (Email):
+   - वैध ईमेल पता दर्ज करें
+   - यह आपके खाते के लिए यूनिक होना चाहिए
+   
+   पासवर्ड (Password):
+   - मजबूत पासवर्ड बनाएं (कम से कम 6 अक्षर)
+   - संख्या और विशेष चिन्ह शामिल करें
+   
+   पासवर्ड की पुष्टि करें:
+   - पासवर्ड दोबारा दर्ज करें
+
+4. "खाता बनाएं" (Create Account) बटन पर क्लिक करें
+5. आप स्वचालित रूप से लॉगिन हो जाएंगे
+
+महत्वपूर्ण नोट्स:
+✓ वैध ईमेल पता उपयोग करें जिसे आप एक्सेस कर सकें
+✓ पासवर्ड कम से कम 6 अक्षर लंबा होना चाहिए
+✓ दोनों पासवर्ड फील्ड समान होने चाहिए
+✓ एक ईमेल पर दो खाते नहीं बन सकते
+
+
+लॉगिन (खाते में प्रवेश करें):
+────────────────────────────────────────────────────────────────────────────
+
+लॉगिन के कदम:
+
+1. प्रोफाइल आइकन पर क्लिक करें
+2. अपना पंजीकृत ईमेल पता दर्ज करें
+3. अपना पासवर्ड दर्ज करें
+4. "साइन इन" (Sign In) बटन पर क्लिक करें
+5. आप लॉगिन हो जाएंगे और होम पेज पर जाएंगे
+
+अगर आप पासवर्ड भूल गए हैं:
+────────────────────────────────────────────────────────────────────────────
+
+✓ हमारी ग्राहक सहायता से संपर्क करें
+✓ अपना ईमेल पता दें
+✓ हम आपके खाते को पुनः प्राप्त करने में मदद करेंगे
+✓ ईमेल: hello@cozycornercafe.com
+
+═══════════════════════════════════════════════════════════════════════════════
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. मेनू और ऑर्डरिंग सिस्टम
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+मेनू ब्राउज़ करना:
+────────────────────────────────────────────────────────────────────────────
+
+1. नेविगेशन बार में "मेनू" (Menu) पर क्लिक करें
+2. विभिन्न श्रेणियों में ब्राउज़ करें:
+   - कॉफी और एस्प्रेसो
+   - पेस्ट्री और स्नैक्स
+
+कॉफी और एस्प्रेसो आइटम (₹250 - ₹330):
+────────────────────────────────────────────────────────────────────────────
+
+✓ हाउस ब्लेंड (₹250)
+  हमारे हस्ताक्षर मध्यम भुनी कॉफी
+  चॉकलेट और कारामेल के नोट्स के साथ
+
+✓ कैपुचिनो (₹320)
+  भाप वाला दूध और फोम के साथ एस्प्रेसो
+
+✓ मोचा (₹350)
+  समृद्ध चॉकलेट के साथ एस्प्रेसो
+  व्हिप्ड क्रीम की परत के साथ
+
+✓ कोल्ड ब्रू (₹330)
+  ठंडे पानी में 12+ घंटे भिगोई हुई कॉफी
+  चिकना और कम अम्लीय
+
+
+पेस्ट्री और स्नैक्स (₹220 - ₹580):
+────────────────────────────────────────────────────────────────────────────
+
+✓ दालचीनी रोल (₹240)
+  दालचीनी के साथ नरम रोल
+  क्रीम चीज़ फ्रॉस्टिंग के साथ
+
+✓ चॉकलेट केक (₹260)
+  समृद्ध और नम चॉकलेट केक
+  चॉकलेट गनाचे के साथ
+
+✓ हैमबर्गर (₹580)
+  रसीले बीफ पैटी के साथ
+  ताजी सब्जियों और विशेष सॉस के साथ
+
+✓ चॉकलेट कपकेक (₹220)
+  मार्शमैलो फ्रॉस्टिंग के साथ
+  चॉकलेट ड्रिज़ल के साथ
+
+
+किसी आइटम को ऑर्डर कैसे करें:
+────────────────────────────────────────────────────────────────────────────
+
+1. किसी भी मेनू आइटम पर होवर करें
+   - आइटम का प्रीव्यू दिखाई देगा
+
+2. आइटम कार्ड पर क्लिक करें
+   - पूर्ण विवरण दिखेंगे:
+   ✓ नाम और विवरण
+   ✓ कीमत (₹ में)
+   ✓ सभी सामग्रियों की सूची
+   ✓ कैलोरी की जानकारी
+   ✓ खाने की तस्वीर
+
+3. "कार्ट में जोड़ें" (Add to Cart) बटन दबाएं
+4. आइटम आपकी कार्ट में जुड़ जाएगा
+5. पुष्टि संदेश दिखेगा
+6. खरीदारी जारी रखें या चेकआउट करें
+
+═══════════════════════════════════════════════════════════════════════════════
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. शॉपिंग कार्ट और चेकआउट
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+अपनी कार्ट एक्सेस करना:
+────────────────────────────────────────────────────────────────────────────
+
+1. शीर्ष नेविगेशन बार में शॉपिंग कार्ट आइकन पर क्लिक करें
+2. साइडबार खुलेगा जो दिखाएगा:
+   - वर्तमान में कार्ट में सभी आइटम
+   - हर आइटम की मात्रा
+   - प्रत्येक आइटम की कीमत
+   - हर आइटम को हटाने का विकल्प
+   - उप-कुल, कर और कुल राशि
+
+कार्ट आइटम प्रबंधित करना:
+────────────────────────────────────────────────────────────────────────────
+
+मात्रा बढ़ाएं/घटाएं:
+- प्रत्येक आइटम के आगे + और - बटन का उपयोग करें
+- सीधे मात्रा दर्ज करें
+- कुल कीमत स्वचालित रूप से अपडेट होगी
+
+आइटम हटाएं:
+- आइटम के आगे "हटाएं" (Remove) बटन पर क्लिक करें
+- आइटम तुरंत कार्ट से हटाया जाएगा
+- कुल पुनः गणना की जाएगी
+
+संपूर्ण कार्ट साफ करें:
+- "कार्ट साफ करें" (Clear Cart) बटन पर क्लिक करें
+- सभी आइटम एक बार हटाए जाएंगे
+
+
+कार्ट सारांश:
+────────────────────────────────────────────────────────────────────────────
+
+कार्ट निम्नलिखित दिखाती है:
+✓ उप-कुल (Subtotal) - सभी आइटम की कीमतों का योग
+✓ कर (Tax) - 8% स्वचालित रूप से गणना की गई
+✓ कुल (Total) - उप-कुल + कर
+✓ कार्ट में आइटम की संख्या
+
+
+चेकआउट प्रक्रिया:
+────────────────────────────────────────────────────────────────────────────
+
+चरण 1: अपने ऑर्डर की समीक्षा करें
+- "चेकआउट के लिए आगे बढ़ें" (Proceed to Checkout) पर क्लिक करें
+- सभी आइटम और मात्रा सही हैं यह सुनिश्चित करें
+- कर सहित कुल राशि देखें
+
+चरण 2: बिलिंग जानकारी दर्ज करें
+- पूरा नाम (जैसा भुगतान विधि पर है)
+- ईमेल पता (ऑर्डर की पुष्टि के लिए)
+- फोन नंबर (डिलीवरी संपर्क के लिए)
+- डिलीवरी पता (पूरा सड़क पता)
+
+चरण 3: भुगतान की जानकारी दर्ज करें
+- कार्ड नंबर (16-अंकीय क्रेडिट/डेबिट कार्ड नंबर)
+- समाप्ति तारीख (MM/YY प्रारूप में)
+- CVV/CVC (पीछे की ओर 3-अंकीय सुरक्षा कोड)
+
+चरण 4: ऑर्डर की पुष्टि करें
+- सभी जानकारी की समीक्षा करें
+- "ऑर्डर दें" (Place Order) पर क्लिक करें
+- संदर्भ नंबर के साथ पुष्टि स्क्रीन दिखेगी
+
+भुगतान की जानकारी:
+────────────────────────────────────────────────────────────────────────────
+
+✓ हम सभी प्रमुख क्रेडिट और डेबिट कार्ड स्वीकार करते हैं
+✓ भुगतान सुरक्षित रूप से संसाधित होता है
+✓ आपके कार्ड की जानकारी संग्रहीत नहीं की जाती
+✓ तुरंत ईमेल पुष्टि मिलेगी
+✓ अनुमानित डिलीवरी समय: 30-45 मिनट
+
+चेकआउट के बाद:
+────────────────────────────────────────────────────────────────────────────
+
+1. पुष्टि संदेश मिलेगा जिसमें:
+   - ऑर्डर संदर्भ संख्या
+   - आपके ईमेल पर पुष्टि
+
+2. आपका ऑर्डर ऑर्डर इतिहास में स्वचालित रूप से जुड़ जाएगा
+3. आप खरीदारी जारी रख सकते हैं या दोबारा चेकआउट कर सकते हैं
+
+═══════════════════════════════════════════════════════════════════════════════
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+5. प्रोफाइल प्रबंधन
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+अपनी प्रोफाइल एक्सेस करना:
+────────────────────────────────────────────────────────────────────────────
+
+1. नेविगेशन बार में प्रोफाइल आइकन पर क्लिक करें
+2. साइडबार से "प्रोफाइल" (Profile) चुनें
+3. आपकी प्रोफाइल पेज खुलेगी जिसमें तीन टैब होंगे:
+   - प्रोफाइल (Profile)
+   - ऑर्डर्स (Orders)
+   - सेटिंग्स (Settings)
+
+
+प्रोफाइल टैब - अपनी जानकारी संपादित करें:
+────────────────────────────────────────────────────────────────────────────
+
+बुनियादी जानकारी:
+✓ पूरा नाम - आपका नाम जैसे दिखाया जाना चाहे
+✓ ईमेल - आपके खाते की ईमेल पता
+✓ फोन नंबर - आपके खाते के लिए संपर्क नंबर
+✓ पता - डिलीवरी के लिए सहेजा हुआ पता
+
+
+प्रोफाइल चित्र:
+1. अपनी वर्तमान प्रोफाइल तस्वीर पर क्लिक करें
+2. अपने कंप्यूटर से JPG या PNG छवि चुनें
+3. छवि आपके खाते के अवतार के रूप में उपयोग की जाएगी
+4. अधिकतम फाइल आकार: 5MB
+
+प्रोफाइल अपडेट करना:
+1. किसी भी फील्ड को संशोधित करें
+2. "बदलाव सहेजें" (Save Changes) पर क्लिक करें
+3. सफलता संदेश दिखेगा
+4. परिवर्तन तुरंत प्रभावी होंगे
+
+
+पासवर्ड बदलना:
+────────────────────────────────────────────────────────────────────────────
+
+1. प्रोफाइल > सेटिंग्स (Settings) टैब पर जाएं
+2. सत्यापन के लिए अपना वर्तमान पासवर्ड दर्ज करें
+3. अपना नया पासवर्ड दर्ज करें (कम से कम 6 अक्षर)
+4. नए पासवर्ड की पुष्टि करें
+5. "पासवर्ड बदलें" (Change Password) पर क्लिक करें
+6. आप लॉगआउट होंगे और नए पासवर्ड से लॉगिन करना होगा
+
+महत्वपूर्ण: अपना पासवर्ड किसी से साझा न करें
+
+
+प्रोफाइल सेटिंग्स:
+────────────────────────────────────────────────────────────────────────────
+
+सूचना वरीयताएं:
+✓ नए ऑर्डर के लिए ईमेल सूचना
+✓ विशेष ऑफर के लिए फोन सूचना
+✓ समाचार और प्रचार ईमेल
+✓ प्रत्येक सूचना प्रकार को चालू/बंद करें
+
+भुगतान विधि:
+✓ सहेजे गए क्रेडिट/डेबिट कार्ड
+✓ नई भुगतान विधि जोड़ें
+✓ मौजूदा भुगतान विधि हटाएं
+
+═══════════════════════════════════════════════════════════════════════════════
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+6. ऑर्डर इतिहास
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ऑर्डर इतिहास देखना:
+────────────────────────────────────────────────────────────────────────────
+
+1. नेविगेशन बार में प्रोफाइल आइकन पर क्लिक करें
+2. "ऑर्डर्स" (Orders) टैब या साइडबार से "ऑर्डर इतिहास" चुनें
+3. आपके सभी पिछले ऑर्डर देखें जिनमें शामिल हैं:
+   - ऑर्डर आईडी (अनन्य संदर्भ संख्या)
+   - ऑर्डर की तारीख
+   - मंगवाए गए आइटम
+   - कुल राशि
+   - वर्तमान स्थिति
+
+
+ऑर्डर स्थिति समझना:
+────────────────────────────────────────────────────────────────────────────
+
+✓ लंबित (PENDING) - ऑर्डर प्राप्त, तैयार हो रहा है
+✓ प्रसंस्करण (PROCESSING) - आइटम पैक किए जा रहे हैं
+✓ वितरण में (IN TRANSIT) - आपका ऑर्डर रास्ते में है
+✓ डिलीवर (DELIVERED) - ऑर्डर सफलतापूर्वक डिलीवर हुआ
+✓ रद्द (CANCELLED) - ऑर्डर रद्द किया गया
+
+रंग-कोडिंग:
+- हरा: डिलीवर किया गया या प्रगति में
+- पीला: लंबित
+- लाल: रद्द या समस्या
+
+
+ऑर्डर विवरण:
+────────────────────────────────────────────────────────────────────────────
+
+हर ऑर्डर यह दिखाता है:
+✓ ऑर्डर नंबर: अनन्य संदर्भ (जैसे ORD001)
+✓ ऑर्डर तारीख: जब ऑर्डर दिया गया था
+✓ मंगवाए गए आइटम: सभी आइटम की सूची
+✓ यूनिट कीमतें: व्यक्तिगत आइटम की लागत
+✓ कुल राशि: कर सहित कुल
+✓ डिलीवरी पता: जहाँ ऑर्डर भेजा गया था
+✓ संपर्क जानकारी: उपयोग किया गया फोन नंबर
+
+
+पिछले ऑर्डर दोबारा करना:
+────────────────────────────────────────────────────────────────────────────
+
+1. वह ऑर्डर खोजें जिसे आप दोबारा करना चाहते हैं
+2. "दोबारा ऑर्डर करें" (Reorder) बटन पर क्लिक करें
+3. उस ऑर्डर के सभी आइटम आपकी वर्तमान कार्ट में जुड़ जाएंगे
+4. आप मात्रा संशोधित या आइटम हटा सकते हैं
+5. सामान्य तरीके से चेकआउट करें
+
+═══════════════════════════════════════════════════════════════════════════════
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+7. टेबल रिजर्वेशन
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+रिजर्वेशन बुक करना:
+────────────────────────────────────────────────────────────────────────────
+
+1. नेविगेशन मेनू में "रिजर्वेशन" (Reservation) पर क्लिक करें
+2. 3-चरणीय रिजर्वेशन प्रक्रिया का पालन करें:
+   चरण 1: तारीख और समय चुनें
+   चरण 2: अपनी टेबल चुनें
+   चरण 3: संपर्क जानकारी दर्ज करें
+
+
+चरण 1: तारीख और समय चुनें
+────────────────────────────────────────────────────────────────────────────
+
+तारीख चुनें:
+- कैलेंडर पिकर पर क्लिक करें
+- कोई भी भविष्य की तारीख चुनें
+- पिछली तारीखें चुनी नहीं जा सकतीं
+
+समय चुनें:
+- तारीख चुनने के बाद उपलब्ध समय स्लॉट दिखेंगे
+- विकल्प: 10:00 AM से 8:30 PM तक (30 मिनट के अंतराल पर)
+
+मेहमानों की संख्या:
+- मेहमानों की संख्या: 1-8 लोग न्यूनतम
+- + और - बटन का उपयोग करें
+- याद रखें: टेबल के आकार अलग-अलग हैं (2, 4, 6 या 8 सीटें)
+
+"अगला चरण" (NEXT STEP) पर क्लिक करें
+
+
+चरण 2: टेबल चुनें
+────────────────────────────────────────────────────────────────────────────
+
+टेबल विकल्प:
+कॉफी शॉप में 8 टेबल हैं:
+
+छोटी टेबलें (2 सीटें):
+- टेबल 1, 2, 6, 7 - गोल टेबल
+- जोड़ों या अकेले खाने वालों के लिए आदर्श
+
+मध्यम टेबलें (4 सीटें):
+- टेबल 3, 4 - चौकोर टेबल
+- छोटे समूहों या परिवारों के लिए
+
+बड़ी टेबलें (6 सीटें):
+- टेबल 5 - आयताकार टेबल
+- मध्यम आकार के समूहों के लिए
+
+अतिरिक्त बड़ी टेबलें (8 सीटें):
+- टेबल 8 - आयताकार टेबल
+- बड़े समूहों या समारोहों के लिए
+
+फ्लोर प्लान की सुविधाएं:
+✓ सीटिंग के साथ बार क्षेत्र
+✓ रसोई क्षेत्र
+✓ शौचालय (WC)
+✓ मुख्य प्रवेश द्वार
+
+टेबल चुनना:
+1. इंटरएक्टिव फ्लोर प्लान देखें
+2. हरा = उपलब्ध, लाल = कब्जा किया हुआ
+3. किसी हरी टेबल पर क्लिक करें
+4. टेबल में आपके समूह के लिए पर्याप्त सीटें होनी चाहिए
+5. यदि टेबल छोटी है तो चेतावनी दिखेगी
+
+"अगला चरण" पर क्लिक करें
+
+
+चरण 3: संपर्क जानकारी दर्ज करें
+────────────────────────────────────────────────────────────────────────────
+
+आवश्यक जानकारी:
+
+नाम:
+- वह नाम जिससे आपको संबोधित किया जाना चाहे
+
+ईमेल:
+- पुष्टि के लिए वैध ईमेल पता
+
+फोन नंबर:
+- आपसे संपर्क करने के लिए मोबाइल या लैंडलाइन
+
+विशेष अनुरोध (वैकल्पिक):
+- हाई चेयर की आवश्यकता
+- विशेष आहार आवश्यकताएं
+- अवसर का विवरण (जन्मदिन, वर्षगांठ आदि)
+- सीटिंग वरीयताएं
+- पहुंच आवश्यकताएं
+
+रिजर्वेशन पूरा करना:
+1. "रिजर्वेशन की पुष्टि करें" (Confirm Reservation) पर क्लिक करें
+2. बुकिंग संदर्भ संख्या प्राप्त करें
+3. ईमेल पर पुष्टि भेजी जाएगी
+4. संदर्भ संख्या सहेजें
+
+
+रिजर्वेशन पुष्टि:
+────────────────────────────────────────────────────────────────────────────
+
+आपको मिलेगा:
+✓ बुकिंग संदर्भ संख्या (जैसे RES-5234)
+✓ तारीख और समय की पुष्टि
+✓ निर्धारित टेबल नंबर
+✓ समूह आकार की पुष्टि
+✓ विशेष निर्देशों की स्वीकृति
+
+यह जानकारी सहेजें:
+- संदर्भ संख्या की आवश्यकता हो सकती है
+- पुष्टि पेज का स्क्रीनशॉट लें
+- ईमेल में बैकअप की पुष्टि देखें
+
+
+कॉफी शॉप में आने पर:
+────────────────────────────────────────────────────────────────────────────
+
+जब आप आएं:
+1. अपना नाम या बुकिंग संदर्भ नंबर दें
+2. कर्मचारी आपको अपनी रिजर्व की हुई टेबल तक ले जाएंगे
+3. मेनू तुरंत दिया जाएगा
+4. अपना कॉफी शॉप अनुभव आनंद लें
+
+महत्वपूर्ण नोट्स:
+✓ कृपया 10-15 मिनट पहले आएं
+✓ रिजर्वेशन समय के बाद 15 मिनट तक रोकी जाएगी
+✓ अगर विलंब हो तो कॉफी शॉप को बताएं
+✓ विशेष अनुरोध पूरे किए जाएंगे यदि संभव हो
+
+═══════════════════════════════════════════════════════════════════════════════
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+8. संपर्क और सहायता
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+हमसे संपर्क करना:
+────────────────────────────────────────────────────────────────────────────
+
+ईमेल:
+hello@cozycornercafe.com
+
+फोन:
+संपर्क पृष्ठ पर दिया गया है
+
+वेबसाइट संपर्क फॉर्म:
+1. नेविगेशन मेनू में "संपर्क" (Contact) पर क्लिक करें
+2. संपर्क जानकारी भरें:
+   - आपका नाम
+   - आपका ईमेल
+   - फोन नंबर
+   - संदेश का विषय
+   - आपका संदेश
+
+3. "संदेश भेजें" (Send Message) पर क्लिक करें
+4. हम 24 घंटे में जवाब देंगे
+
+सहायता के घंटे:
+✓ सोमवार - शुक्रवार: 9:00 AM - 6:00 PM
+✓ शनिवार: 10:00 AM - 5:00 PM
+✓ रविवार: 10:00 AM - 4:00 PM
+
+
+अक्सर पूछे जाने वाले प्रश्न:
+────────────────────────────────────────────────────────────────────────────
+
+Q1: डिलीवरी में कितना समय लगता है?
+A: आमतौर पर डिलीवरी समय 30-45 मिनट है।
+
+Q2: क्या आप केवल कार्ड स्वीकार करते हैं?
+A: हाँ, हम सभी प्रमुख क्रेडिट और डेबिट कार्ड स्वीकार करते हैं।
+
+Q3: क्या मैं ऑर्डर देने के बाद उसे बदल सकता हूँ?
+A: अगर ऑर्डर अभी तैयार नहीं हुआ तो तुरंत हमसे संपर्क करें।
+
+Q4: क्या आपके पास आहार विकल्प हैं?
+A: हाँ, हमारे पास शाकाहारी और वीगन विकल्प हैं।
+
+Q5: रद्दीकरण की नीति क्या है?
+A: ऑर्डर रद्द किए जा सकते हैं इससे पहले कि वे तैयार किए जाएं।
+
+Q6: क्या मैं विशेष अवसरों के लिए टेबल रिजर्व कर सकता हूँ?
+A: हाँ! जन्मदिन, वर्षगांठ आदि के लिए विशेष अनुरोध के साथ संपर्क करें।
+
+Q7: क्या पार्किंग उपलब्ध है?
+A: हाँ, सड़क पार्किंग उपलब्ध है।
+
+Q8: क्या WiFi है?
+A: हाँ, सभी मेहमानों के लिए मुफ्त WiFi उपलब्ध है।
+
+
+खाता और सुरक्षा:
+────────────────────────────────────────────────────────────────────────────
+
+आपका खाता सुरक्षित है:
+✓ एन्क्रिप्टेड पासवर्ड संग्रहण
+✓ सुरक्षित भुगतान प्रसंस्करण
+✓ व्यक्तिगत डेटा गोपनीयता सम्मानित
+✓ कोई खाता जानकारी तीसरे पक्ष को नहीं दी जाती
+
+खाता सुरक्षा सुझाव:
+✓ अपना पासवर्ड किसी से साझा न करें
+✓ साझा कंप्यूटर पर लॉगआउट करें
+✓ मजबूत पासवर्ड बनाएं (संख्या, अक्षर, चिन्ह मिलाएं)
+✓ अपनी संपर्क जानकारी नियमित रूप से अपडेट करें
+
+अगर आप धोखाधड़ी पर संदेह करते हैं:
+────────────────────────────────────────────────────────────────────────────
+
+तुरंत हमसे संपर्क करें
+- आपका खाता सुरक्षित किया जाएगा
+- तत्काल जाँच शुरू की जाएगी
+- नया पासवर्ड जारी किया जाएगा
+- पूरी सहायता प्रदान की जाएगी
+
+═══════════════════════════════════════════════════════════════════════════════
+═══════════════════════════════════════════════════════════════════════════════
+
+                           धन्यवाद (THANK YOU)!
+
+                  Cozy Corner Café पर आपकी यात्रा के लिए
+
+            हमारे साथ खरीदारी करने का आनंद लें और मजेदार रहें!
+          Enjoy shopping with us and have a delightful experience!
+
+═══════════════════════════════════════════════════════════════════════════════
+संस्करण / VERSION: 1.0
+अंतिम अपडेट / LAST UPDATED: March 10, 2026
+═══════════════════════════════════════════════════════════════════════════════
